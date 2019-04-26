@@ -3,8 +3,19 @@ html, body{
   margin: 0;
   padding: 0;
   height: 100%;
-  font-size: 100%;
+  -webkit-text-size-adjust: none;
 }
+@media (max-width:1000px){
+  body{
+    font-size: 80%;
+  }
+}
+@media (max-width:800px){
+  body{
+    font-size: 70%;
+  }
+}
+
 #intro_container{
   background: url(https://cinematiclab.com/wp-content/uploads/2017/04/casey-neistat-style.jpg);
   -webkit-background-size: cover;
@@ -52,13 +63,12 @@ html, body{
   align-items: center;
   justify-content: center;
   height: 100%;
-  
   margin: 0 64px 0 64px;
   justify-content: center;
   align-items: center;
 }
 #description_container h2{
-  font-size: 5em;
+  font-size: 500%;
   line-height: 100%;
   margin:0;
 }
