@@ -137,6 +137,7 @@ h2{
   max-height: 100%;
   max-width: 100%;
   position: relative;
+  object-fit: cover;
 }
 .botrow img{
   position: absolute;
@@ -148,7 +149,7 @@ h2{
   width:auto;
   max-height: 100%;
   max-width: 100%;
-  object-fit: cover;
+  width: 100%;
 }
 #vid1{
   grid-area: vid1;
